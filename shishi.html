@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>我的第一段 JavaScript</h1>
+<span id = "zhou">
+<p id="demo">
+JavaScript 能改变 HTML 元素的内容。
+</p>
+</span>
+<script>
+function myFunction()
+{
+zhou = document.getElementById('zhou')
+x=zhou.getElementsByTagName('p');  // 找到元素
+x.innerHTML="Hello JavaScript!";    // 改变内容
+}
+</script>
+
+<button type="button" onclick="myFunction()">点击这as里</button>
+
+</body>
+</html>
